@@ -15,5 +15,5 @@ end
 
 def find_the_cheese(array)
   cheesy = ["gouda", "cheddar", "camembert"]
-  array.any? {|cheese| cheese = }
+  array.any? {|cheese| cheese == #{cheesy}}
     end
