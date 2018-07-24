@@ -15,5 +15,5 @@ end
 
 def find_the_cheese(array)
   cheesy = ["gouda", "cheddar", "camembert"]
-  array.any? {|cheese| cheesy.include?(cheese)}
+  array.any? {|cheese| cheesy.include?(cheese)} #for every element of array, you are asking if the cheesy array includes it
     end
